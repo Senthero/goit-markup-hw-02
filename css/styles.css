@@ -1,12 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     color: #434455;
     background-color: #FFF;
 }
 
 a {
+    color: #434455;
     text-decoration: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 ul, ol {
@@ -14,6 +18,10 @@ ul, ol {
 }
 
 /* ------header------ */
+
+.header {
+    background-color: #fff;
+}
 
 .header-logo {
     color: #2E2F42;
@@ -35,6 +43,10 @@ ul, ol {
         text-transform: uppercase;
 }
 
+.contacts {
+    font-style: normal;
+}
+
 .header-nav-link {
     color: #2E2F42;
         font-size: 16px;
@@ -43,25 +55,25 @@ ul, ol {
         letter-spacing: 0.02em;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-link a:hover,
+.header-nav-link a:focus {
     color: #404bbf;
 }
 
 .contacts {
     font-style: normal;
+    color: #434455;
 }
 
 .contacts-link {
-        color: #434455;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link a:hover,
+.contacts-link a:focus {
     color: #404bbf;
 }
 
@@ -95,7 +107,6 @@ ul, ol {
 .first-button:hover,
 .first-button:focus {
     background-color: #404BBF;
-    cursor: pointer;
 }
 
 /* ---------- */
