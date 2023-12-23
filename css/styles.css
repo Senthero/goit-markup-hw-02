@@ -1,9 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     color: #434455;
-    font-weight: 400;
     background-color: #FFF;
-    font-style: normal
 }
 
 a {
@@ -37,15 +36,15 @@ ul, ol {
 }
 
 .header-nav-link {
-    color: #434455;
+    color: #2E2F42;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
-header-nav-link:hover,
-header-nav-link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: #404bbf;
 }
 
