@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-weight: 400;
-    background-color: #fff
+    background-color: #FFFFFF
     font-style: normal
 }
 
@@ -46,7 +46,7 @@ ul, ol {
 
 header-nav-link:hover,
 header-nav-link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .contacts {
