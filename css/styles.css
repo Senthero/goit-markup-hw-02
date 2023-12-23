@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+ul, ol {
     list-style: none;
 }
 
@@ -141,9 +141,6 @@ header-nav-link:focus {
 /* --------- */
 
 /* ------section3----- */
-
-.portfolio-box {
-}
 
 .portfolio {
     color: #2E2F42;
